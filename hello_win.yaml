@@ -1,0 +1,11 @@
+- name: Exemplo de playbook para Windows
+  hosts: windows
+  tasks:
+    - name: Executar comando no Windows
+      win_command: echo "Olá, Mundo!"
+      vars:
+        ansible_user: olam
+        ansible_password: skol3121
+        ansible_connection: winrm
+        ansible_winrm_transport: basic
+        ansible_winrm_server_cert_validation: ignore
