@@ -1,0 +1,7 @@
+- name: Run a PowerShell command
+  community.windows.psexec:
+    hostname: Dell_Tab.cloudmar.local
+    connection_username: olam@cloudmar.LOCAL
+    connection_password: skol3121
+    executable: powershell.exe
+    arguments: Write-Host Hello World
