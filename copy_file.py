@@ -8,8 +8,8 @@ def criar_diretorio(diretorio):
         os.makedirs(diretorio)
 
 # Diretório de origem e destino
-diretorio_origem = "C:\\Pasta_de_Teste\\Origem"
-diretorio_destino = "C:\\Pasta_de_Teste\\Destino"
+diretorio_origem = "C:\\Pasta_de_Teste\\Origem" # Colocar o caminho da pasta de Origem dos arquivos
+diretorio_destino = "C:\\Pasta_de_Teste\\Destino" # Colocar o caminho da pasta de Destino dos arquivos
 diretorio_log = diretorio_destino  # O arquivo de log será salvo na pasta destino
 
 # Verificar se o diretório de destino existe e, se não, criá-lo
